@@ -56,7 +56,6 @@ export default function BlogHomeScreen() {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
-
         console.log(formData)
 
         if (!formData.title.trim() || !formData.content.trim() || !formData.author.trim()) {
