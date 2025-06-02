@@ -89,8 +89,8 @@ export default function BlogHomeScreen() {
                         <BookOpen className="h-6 w-6"/>
                         <h2 className="text-2xl font-bold text-gray-900">All Blog Posts</h2>
                         <span className="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">
-              {blogs && blogs.length} {blogs && blogs.length === 1 ? "post" : "posts"}
-            </span>
+                            {blogs && blogs.length} {blogs && blogs.length === 1 ? "post" : "posts"}
+                        </span>
                     </div>
 
                     <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
