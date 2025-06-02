@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Home from "./home/page.tsx";
 
 function App() {
